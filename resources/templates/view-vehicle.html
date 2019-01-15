@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+
+<pre>
+{{ data }}
+</pre>
+
+<div class="vehicle-view-full">
+    <div class="clearfix">
+        <div class="vehicle-view-full__large-title">
+            2009 BMW 1 Series 125i Coupe Sport A/t for sale in Gauteng
+        </div>
+        <div class="vehicle-view-full__price">R 99 999 999</div>
+    </div>
+    <div class="vehicle-view-full__gallery">
+        PICTURES
+    </div>
+    <div class="clearfix">
+        <div class="vehicle-view-full__title">Vehicle Details</div>
+        <table class="vehicle-view-full__specs-table">
+            <tr>
+                <td>Specs</td>
+                <td>100</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <div class="vehicle-view-full__title">Description</div>
+        <p>
+            Descriptive Text
+        </p>
+    </div>
+</div>
+
+{% endblock %}

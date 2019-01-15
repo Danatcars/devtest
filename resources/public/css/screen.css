@@ -1,0 +1,31 @@
+html, body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+  padding-top: 0px; }
+
+.main-nav {
+  background: #d2232a;
+  height: 59px; }
+
+.vehicle-view-full__large-title {
+  font-size: 25px;
+  line-height: 30px;
+  float: left;
+  width: 410px;
+  padding: 20px 0; }
+
+.vehicle-view-full__title {
+  font-size: 22px;
+  padding: 10px 0; }
+
+.vehicle-view-full__price {
+  font-size: 20px;
+  width: 150px;
+  float: left;
+  padding: 42px 0px 0px 22px;
+  text-align: right; }
+
+.vehicle-view-full__gallery {
+  background: #eee;
+  width: 560px;
+  min-height: 420px; }

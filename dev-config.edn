@@ -1,0 +1,4 @@
+;; WARNING
+;; The dev-config.edn file is used for local environment variables, such as database credentials.
+
+{:database-url "mysql://localhost:33066/devdb?user=root&password=devpass"}

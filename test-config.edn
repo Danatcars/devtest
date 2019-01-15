@@ -1,0 +1,4 @@
+;; WARNING
+;; The test-config.edn file is used for local environment variables, such as database credentials.
+
+{:database-url "mysql://localhost:3306/cljtest_test?user=db_user_name_here&password=db_user_password_here"}
